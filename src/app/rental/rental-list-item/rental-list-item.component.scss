@@ -1,20 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import 'variableStyle';
 
-html,body,p{
- color:$main-text-color
-}
 
-#rentalListing {
-  .title {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
+a{
+  &:hover, &:focus{
+  text-decoration:none;
   }
-
-
-  /* SINGLE CARD STYLES*/
+}
+/* SINGLE CARD STYLES*/
   .bwm-card {
     border: none;
 
@@ -28,7 +20,7 @@ html,body,p{
         font-weight: 500;
         font-size: 12px;
         text-transform: uppercase;
-        color: #16861a;
+        color: $main-text-color;
       }
 
 
@@ -48,4 +40,3 @@ html,body,p{
       }
     }
   }
-}
